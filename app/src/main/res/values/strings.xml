@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EnozomTask</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connectionError">Error connecting to the internet</string>
+    <string name="serverError">Internal server error</string>
+    <string name="authenticationError">An authentication error has occurred</string>
+    <string name="offline_message">You seem to be offline, do you want to enable internet connection now ?</string>
+    <string name="filter">Type to Filter ..</string>
+
+</resources>

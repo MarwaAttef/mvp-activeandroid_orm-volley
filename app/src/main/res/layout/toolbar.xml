@@ -1,0 +1,36 @@
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Toolbar">
+
+
+            <android.support.v7.widget.SearchView
+                android:id="@+id/search_viwe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp10"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginRight="@dimen/dp20"
+                android:background="@drawable/rounded_search_view"
+                app:queryHint="@string/filter"
+                app:iconifiedByDefault="false"
+                android:iconifiedByDefault="false"
+                android:layout_marginTop="@dimen/dp10"
+                android:focusableInTouchMode="true"
+                android:focusedByDefault="false"
+                android:theme="@style/SearchViewStyle" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+</android.support.design.widget.AppBarLayout>
